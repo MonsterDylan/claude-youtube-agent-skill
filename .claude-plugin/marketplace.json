@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-youtube-agent-skill",
+  "description": "The YouTube agent skill pack for Claude",
+  "owner": {
+    "name": "Dylan Watkins",
+    "url": "https://dylanjwatkins.com"
+  },
+  "plugins": [
+    {
+      "name": "youtube-agent",
+      "description": "Eleven Claude skills that run a YouTube channel, including a scored hook panel, a title and thumbnail linter, an edit decision list, a retention reader and a virality engine.",
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/MonsterDylan/claude-youtube-agent-skill"
+    }
+  ]
+}
